@@ -1,0 +1,234 @@
+/* new font */
+@font-face {
+    font-family: 'ClashDisplay-Bold';
+    src: url('assets/fonts/clash-display/ClashDisplay-Bold.woff2');
+    font-weight: 700;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Outfit-Regular';
+    src: url('assets/fonts/outfit/Outfit-Regular.woff2');
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Outfit-Bold';
+    src: url('assets/fonts/outfit/Outfit-Bold.woff2');
+    font-weight: 700;
+    font-display: swap;
+    font-style: normal;
+}
+
+
+.weavely {
+    padding: 20px 20px 20px 0;
+    font-family: Outfit-Regular, sans-serif;
+    color: black;
+    font-size: 14px
+}
+
+.weavely b {
+    font-family: Outfit-Bold, sans-serif;
+}
+
+.weavely .clash-display {
+    font-family: ClashDisplay-Bold, sans-serif;
+}
+
+/* Header */
+.weavely .header {
+    justify-content: space-between;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.weavely .header-menu {
+    display: flex;
+    gap: 10px
+}
+
+.weavely .header-menu p.submit {
+    margin: 0;
+    padding: 0;
+}
+
+.weavely .logo {
+    height: 30px;
+}
+
+
+/* Setup */
+.weavely .setup {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background: linear-gradient(256deg, #BE75FF -4.48%, #FDC473 49.54%, #FF86C1 105.71%);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border: 1px solid black;
+    padding: 100px 50px 50px;
+    justify-content: center;
+}
+
+.weavely .setup .banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    font-size: 35px;
+    margin-bottom: 40px;
+}
+
+.weavely .setup p.submit {
+    margin: 0;
+    text-align: center;
+}
+
+.weavely .setup .button-primary {
+    background: black;
+    width: 100px;
+    border: 0;
+    padding: 5px 10px;
+    font-family: Outfit-Bold, sans-serif;
+    font-size: 14px;
+}
+
+.weavely .setup .logo {
+    height: 75px;
+}
+
+.weavely .setup .step {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -15px;
+    text-align: center;
+    font-size: 80px;
+    font-family: ClashDisplay-Bold, sans-serif;
+    color: black
+}
+
+.weavely .setup .columns {
+    margin: 20px 0;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.weavely .setup .column {
+    background: rgba(0, 0, 0, 0.08);
+    padding: 40px;
+    position: relative;
+    text-align: center;
+    box-sizing: border-box;
+    width: 330px;
+}
+
+.weavely .setup .column h2 {
+    font-size: 18px;
+    font-family: Outfit-Bold, sans-serif;
+}
+
+.weavely .setup .column p {
+    font-size: 16px;
+    margin: 0
+}
+
+.weavely .setup .column a {
+    color: black;
+    font-family: Outfit-Bold, sans-serif;
+}
+
+.weavely .setup .api-key {
+
+    width: 330px;
+    margin: 0 auto;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.weavely .setup .api-key h2 {
+    font-size: 24px;
+    font-family: Outfit-Bold, sans-serif;
+}
+
+.weavely .setup .api-key input[type="text"] {
+    width: 330px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    font-family: Outfit-Regular, sans-serif;
+    border: 1px solid black;
+}
+
+
+/* Dashboard */
+
+.weavely .info-panel {
+    border: 1px solid #863FFA;
+    background: rgba(134, 63, 250, 0.1);
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.weavely .info-panel b {
+    font-weight: 800;
+}
+
+
+.weavely th {
+    text-align: left;
+    padding: 10px;
+    border-bottom: 1px solid #e5e5e5;
+    text-transform: uppercase;
+    font-weight: 900;
+
+}
+
+.weavely table {
+    background: white;
+    border: 1px solid #e5e5e5;
+    width: 100%;
+    border-spacing: 0;
+    padding: 0 20px
+}
+
+.weavely td {
+    padding: 10px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.weavely tr:last-child td {
+    border-bottom: 0
+}
+
+.weavely .submissions {
+    width: 115px;
+}
+
+.weavely .submissions a {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background: #f8f9fa;
+    border-radius: 3px;
+    padding: 5px 10px;
+    border: 1px solid #2271b1;
+    color: #2271b1;
+    text-decoration: none;
+}
+
+.weavely .table-icon {
+    width: 12px;
+    height: 12px;
+}
+
+.weavely .shortcode {
+    font-family: monospace;
+    width: 440px;
+    font-size:13px;
+}
+
